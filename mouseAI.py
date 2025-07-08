@@ -1,4 +1,7 @@
-import cv2, mediapipe as mp, pyautogui, math, time
+import cv2
+import mediapipe as mp
+import pyautogui
+import math
 
 # ---------- settings ----------
 pyautogui.FAILSAFE = False
