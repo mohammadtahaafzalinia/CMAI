@@ -1,8 +1,8 @@
-# Smart Mouse – Gesture-Controlled Virtual Mouse Using Image Processing
+# CMAI – Gesture-Controlled Virtual Mouse Using Image Processing
 
 ## Overview
 
-Smart Mouse is a computer vision project that replaces the physical mouse with hand gestures. Using a standard webcam, the system tracks the user's hand in real time and translates finger movements into cursor actions. No extra hardware is needed, which makes it a low-cost, touch-free way to interact with a computer.
+CMAI is a computer vision project that replaces the physical mouse with hand gestures. Using a standard webcam, the system tracks the user's hand in real time and translates finger movements into cursor actions. No extra hardware is needed, which makes it a low-cost, touch-free way to interact with a computer.
 
 ## How It Works
 
@@ -34,25 +34,6 @@ Smart Mouse is a computer vision project that replaces the physical mouse with h
 
 - **Language:** Python
 - **Libraries:** OpenCV, MediaPipe, NumPy, PyAutoGUI
-
-## Installation
-
-```bash
-git clone https://github.com/<your-username>/smart-mouse.git
-cd smart-mouse
-python -m venv venv
-source venv/bin/activate        # On Windows: venv\Scripts\activate
-pip install opencv-python mediapipe numpy pyautogui
-```
-
-## Usage
-
-```bash
-python main.py
-```
-
-- Make sure your webcam is connected and the hand is clearly visible in good lighting.
-- Press `q` in the preview window to quit.
 
 ## Applications
 
